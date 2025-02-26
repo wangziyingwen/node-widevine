@@ -1,0 +1,225 @@
+import { enumDesc, fileDesc, messageDesc } from "@bufbuild/protobuf/codegenv1";
+export const file_license_protocol = fileDesc("ChZsaWNlbnNlX3Byb3RvY29sLnByb3RvEhBsaWNlbnNlX3Byb3RvY29sIrIBChVMaWNlbnNlSWRlbnRpZmljYXRpb24SEgoKcmVxdWVzdF9pZBgBIAEoDBISCgpzZXNzaW9uX2lkGAIgASgMEhMKC3B1cmNoYXNlX2lkGAMgASgMEisKBHR5cGUYBCABKA4yHS5saWNlbnNlX3Byb3RvY29sLkxpY2Vuc2VUeXBlEg8KB3ZlcnNpb24YBSABKAUSHgoWcHJvdmlkZXJfc2Vzc2lvbl90b2tlbhgGIAEoDCLMFwoHTGljZW5zZRIzCgJpZBgBIAEoCzInLmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZUlkZW50aWZpY2F0aW9uEjAKBnBvbGljeRgCIAEoCzIgLmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZS5Qb2xpY3kSMwoDa2V5GAMgAygLMiYubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlLktleUNvbnRhaW5lchIaChJsaWNlbnNlX3N0YXJ0X3RpbWUYBCABKAMSKgobcmVtb3RlX2F0dGVzdGF0aW9uX3ZlcmlmaWVkGAUgASgIOgVmYWxzZRIdChVwcm92aWRlcl9jbGllbnRfdG9rZW4YBiABKAwSGQoRcHJvdGVjdGlvbl9zY2hlbWUYByABKA0SFwoPc3JtX3JlcXVpcmVtZW50GAggASgMEhIKCnNybV91cGRhdGUYCSABKAwSbAoccGxhdGZvcm1fdmVyaWZpY2F0aW9uX3N0YXR1cxgKIAEoDjIsLmxpY2Vuc2VfcHJvdG9jb2wuUGxhdGZvcm1WZXJpZmljYXRpb25TdGF0dXM6GFBMQVRGT1JNX05PX1ZFUklGSUNBVElPThIRCglncm91cF9pZHMYCyADKAwargQKBlBvbGljeRIXCghjYW5fcGxheRgBIAEoCDoFZmFsc2USGgoLY2FuX3BlcnNpc3QYAiABKAg6BWZhbHNlEhgKCWNhbl9yZW5ldxgDIAEoCDoFZmFsc2USIgoXcmVudGFsX2R1cmF0aW9uX3NlY29uZHMYBCABKAM6ATASJAoZcGxheWJhY2tfZHVyYXRpb25fc2Vjb25kcxgFIAEoAzoBMBIjChhsaWNlbnNlX2R1cmF0aW9uX3NlY29uZHMYBiABKAM6ATASLAohcmVuZXdhbF9yZWNvdmVyeV9kdXJhdGlvbl9zZWNvbmRzGAcgASgDOgEwEhoKEnJlbmV3YWxfc2VydmVyX3VybBgIIAEoCRIgChVyZW5ld2FsX2RlbGF5X3NlY29uZHMYCSABKAM6ATASKQoecmVuZXdhbF9yZXRyeV9pbnRlcnZhbF9zZWNvbmRzGAogASgDOgEwEh8KEHJlbmV3X3dpdGhfdXNhZ2UYCyABKAg6BWZhbHNlEicKGGFsd2F5c19pbmNsdWRlX2NsaWVudF9pZBgMIAEoCDoFZmFsc2USKgofcGxheV9zdGFydF9ncmFjZV9wZXJpb2Rfc2Vjb25kcxgNIAEoAzoBMBItCh5zb2Z0X2VuZm9yY2VfcGxheWJhY2tfZHVyYXRpb24YDiABKAg6BWZhbHNlEioKHHNvZnRfZW5mb3JjZV9yZW50YWxfZHVyYXRpb24YDyABKAg6BHRydWUaww8KDEtleUNvbnRhaW5lchIKCgJpZBgBIAEoDBIKCgJpdhgCIAEoDBILCgNrZXkYAyABKAwSPAoEdHlwZRgEIAEoDjIuLmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZS5LZXlDb250YWluZXIuS2V5VHlwZRJVCgVsZXZlbBgFIAEoDjI0LmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZS5LZXlDb250YWluZXIuU2VjdXJpdHlMZXZlbDoQU1dfU0VDVVJFX0NSWVBUTxJUChNyZXF1aXJlZF9wcm90ZWN0aW9uGAYgASgLMjcubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlLktleUNvbnRhaW5lci5PdXRwdXRQcm90ZWN0aW9uElUKFHJlcXVlc3RlZF9wcm90ZWN0aW9uGAcgASgLMjcubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlLktleUNvbnRhaW5lci5PdXRwdXRQcm90ZWN0aW9uEkYKC2tleV9jb250cm9sGAggASgLMjEubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlLktleUNvbnRhaW5lci5LZXlDb250cm9sEm4KIG9wZXJhdG9yX3Nlc3Npb25fa2V5X3Blcm1pc3Npb25zGAkgASgLMkQubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlLktleUNvbnRhaW5lci5PcGVyYXRvclNlc3Npb25LZXlQZXJtaXNzaW9ucxJmChx2aWRlb19yZXNvbHV0aW9uX2NvbnN0cmFpbnRzGAogAygLMkAubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlLktleUNvbnRhaW5lci5WaWRlb1Jlc29sdXRpb25Db25zdHJhaW50EigKGWFudGlfcm9sbGJhY2tfdXNhZ2VfdGFibGUYCyABKAg6BWZhbHNlEhMKC3RyYWNrX2xhYmVsGAwgASgJGjMKCktleUNvbnRyb2wSGQoRa2V5X2NvbnRyb2xfYmxvY2sYASABKAwSCgoCaXYYAiABKAwa+wQKEE91dHB1dFByb3RlY3Rpb24SVQoEaGRjcBgBIAEoDjI8LmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZS5LZXlDb250YWluZXIuT3V0cHV0UHJvdGVjdGlvbi5IRENQOglIRENQX05PTkUSWwoKY2dtc19mbGFncxgCIAEoDjI8LmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZS5LZXlDb250YWluZXIuT3V0cHV0UHJvdGVjdGlvbi5DR01TOglDR01TX05PTkUSbgoNaGRjcF9zcm1fcnVsZRgDIAEoDjJDLmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZS5LZXlDb250YWluZXIuT3V0cHV0UHJvdGVjdGlvbi5IZGNwU3JtUnVsZToSSERDUF9TUk1fUlVMRV9OT05FEiQKFWRpc2FibGVfYW5hbG9nX291dHB1dBgEIAEoCDoFZmFsc2USJQoWZGlzYWJsZV9kaWdpdGFsX291dHB1dBgFIAEoCDoFZmFsc2UieQoESERDUBINCglIRENQX05PTkUQABILCgdIRENQX1YxEAESCwoHSERDUF9WMhACEg0KCUhEQ1BfVjJfMRADEg0KCUhEQ1BfVjJfMhAEEg0KCUhEQ1BfVjJfMxAFEhsKFkhEQ1BfTk9fRElHSVRBTF9PVVRQVVQQ/wEiQwoEQ0dNUxINCglDR01TX05PTkUQKhINCglDT1BZX0ZSRUUQABINCglDT1BZX09OQ0UQAhIOCgpDT1BZX05FVkVSEAMiNgoLSGRjcFNybVJ1bGUSFgoSSERDUF9TUk1fUlVMRV9OT05FEAASDwoLQ1VSUkVOVF9TUk0QARqvAQoZVmlkZW9SZXNvbHV0aW9uQ29uc3RyYWludBIdChVtaW5fcmVzb2x1dGlvbl9waXhlbHMYASABKA0SHQoVbWF4X3Jlc29sdXRpb25fcGl4ZWxzGAIgASgNElQKE3JlcXVpcmVkX3Byb3RlY3Rpb24YAyABKAsyNy5saWNlbnNlX3Byb3RvY29sLkxpY2Vuc2UuS2V5Q29udGFpbmVyLk91dHB1dFByb3RlY3Rpb24anQEKHU9wZXJhdG9yU2Vzc2lvbktleVBlcm1pc3Npb25zEhwKDWFsbG93X2VuY3J5cHQYASABKAg6BWZhbHNlEhwKDWFsbG93X2RlY3J5cHQYAiABKAg6BWZhbHNlEhkKCmFsbG93X3NpZ24YAyABKAg6BWZhbHNlEiUKFmFsbG93X3NpZ25hdHVyZV92ZXJpZnkYBCABKAg6BWZhbHNlImwKB0tleVR5cGUSCwoHU0lHTklORxABEgsKB0NPTlRFTlQQAhIPCgtLRVlfQ09OVFJPTBADEhQKEE9QRVJBVE9SX1NFU1NJT04QBBIPCgtFTlRJVExFTUVOVBAFEg8KC09FTV9DT05URU5UEAYiegoNU2VjdXJpdHlMZXZlbBIUChBTV19TRUNVUkVfQ1JZUFRPEAESFAoQU1dfU0VDVVJFX0RFQ09ERRACEhQKEEhXX1NFQ1VSRV9DUllQVE8QAxIUChBIV19TRUNVUkVfREVDT0RFEAQSEQoNSFdfU0VDVVJFX0FMTBAFIqMMCg5MaWNlbnNlUmVxdWVzdBI5CgljbGllbnRfaWQYASABKAsyJi5saWNlbnNlX3Byb3RvY29sLkNsaWVudElkZW50aWZpY2F0aW9uEkoKCmNvbnRlbnRfaWQYAiABKAsyNi5saWNlbnNlX3Byb3RvY29sLkxpY2Vuc2VSZXF1ZXN0LkNvbnRlbnRJZGVudGlmaWNhdGlvbhI6CgR0eXBlGAMgASgOMiwubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlUmVxdWVzdC5SZXF1ZXN0VHlwZRIUCgxyZXF1ZXN0X3RpbWUYBCABKAMSJAoca2V5X2NvbnRyb2xfbm9uY2VfZGVwcmVjYXRlZBgFIAEoDBJIChBwcm90b2NvbF92ZXJzaW9uGAYgASgOMiEubGljZW5zZV9wcm90b2NvbC5Qcm90b2NvbFZlcnNpb246C1ZFUlNJT05fMl8wEhkKEWtleV9jb250cm9sX25vbmNlGAcgASgNEkwKE2VuY3J5cHRlZF9jbGllbnRfaWQYCCABKAsyLy5saWNlbnNlX3Byb3RvY29sLkVuY3J5cHRlZENsaWVudElkZW50aWZpY2F0aW9uGqwIChVDb250ZW50SWRlbnRpZmljYXRpb24SZQoSd2lkZXZpbmVfcHNzaF9kYXRhGAEgASgLMkcubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlUmVxdWVzdC5Db250ZW50SWRlbnRpZmljYXRpb24uV2lkZXZpbmVQc3NoRGF0YUgAElcKC3dlYm1fa2V5X2lkGAIgASgLMkAubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlUmVxdWVzdC5Db250ZW50SWRlbnRpZmljYXRpb24uV2VibUtleUlkSAASYgoQZXhpc3RpbmdfbGljZW5zZRgDIAEoCzJGLmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZVJlcXVlc3QuQ29udGVudElkZW50aWZpY2F0aW9uLkV4aXN0aW5nTGljZW5zZUgAElQKCWluaXRfZGF0YRgEIAEoCzI/LmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZVJlcXVlc3QuQ29udGVudElkZW50aWZpY2F0aW9uLkluaXREYXRhSAAabgoQV2lkZXZpbmVQc3NoRGF0YRIRCglwc3NoX2RhdGEYASADKAwSMwoMbGljZW5zZV90eXBlGAIgASgOMh0ubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlVHlwZRISCgpyZXF1ZXN0X2lkGAMgASgMGmQKCVdlYm1LZXlJZBIOCgZoZWFkZXIYASABKAwSMwoMbGljZW5zZV90eXBlGAIgASgOMh0ubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlVHlwZRISCgpyZXF1ZXN0X2lkGAMgASgMGrMBCg9FeGlzdGluZ0xpY2Vuc2USOwoKbGljZW5zZV9pZBgBIAEoCzInLmxpY2Vuc2VfcHJvdG9jb2wuTGljZW5zZUlkZW50aWZpY2F0aW9uEh0KFXNlY29uZHNfc2luY2Vfc3RhcnRlZBgCIAEoAxIhChlzZWNvbmRzX3NpbmNlX2xhc3RfcGxheWVkGAMgASgDEiEKGXNlc3Npb25fdXNhZ2VfdGFibGVfZW50cnkYBCABKAwa9gEKCEluaXREYXRhEmoKDmluaXRfZGF0YV90eXBlGAEgASgOMkwubGljZW5zZV9wcm90b2NvbC5MaWNlbnNlUmVxdWVzdC5Db250ZW50SWRlbnRpZmljYXRpb24uSW5pdERhdGEuSW5pdERhdGFUeXBlOgRDRU5DEhEKCWluaXRfZGF0YRgCIAEoDBIzCgxsaWNlbnNlX3R5cGUYAyABKA4yHS5saWNlbnNlX3Byb3RvY29sLkxpY2Vuc2VUeXBlEhIKCnJlcXVlc3RfaWQYBCABKAwiIgoMSW5pdERhdGFUeXBlEggKBENFTkMQARIICgRXRUJNEAJCFAoSY29udGVudF9pZF92YXJpYW50IjAKC1JlcXVlc3RUeXBlEgcKA05FVxABEgsKB1JFTkVXQUwQAhILCgdSRUxFQVNFEAMi3QEKCk1ldHJpY0RhdGESEgoKc3RhZ2VfbmFtZRgBIAEoCRI7CgttZXRyaWNfZGF0YRgCIAMoCzImLmxpY2Vuc2VfcHJvdG9jb2wuTWV0cmljRGF0YS5UeXBlVmFsdWUaVAoJVHlwZVZhbHVlEjUKBHR5cGUYASABKA4yJy5saWNlbnNlX3Byb3RvY29sLk1ldHJpY0RhdGEuTWV0cmljVHlwZRIQCgV2YWx1ZRgCIAEoAzoBMCIoCgpNZXRyaWNUeXBlEgsKB0xBVEVOQ1kQARINCglUSU1FU1RBTVAQAiJLCgtWZXJzaW9uSW5mbxIbChNsaWNlbnNlX3Nka192ZXJzaW9uGAEgASgJEh8KF2xpY2Vuc2Vfc2VydmljZV92ZXJzaW9uGAIgASgJIsoFCg1TaWduZWRNZXNzYWdlEjkKBHR5cGUYASABKA4yKy5saWNlbnNlX3Byb3RvY29sLlNpZ25lZE1lc3NhZ2UuTWVzc2FnZVR5cGUSCwoDbXNnGAIgASgMEhEKCXNpZ25hdHVyZRgDIAEoDBITCgtzZXNzaW9uX2tleRgEIAEoDBIaChJyZW1vdGVfYXR0ZXN0YXRpb24YBSABKAwSMQoLbWV0cmljX2RhdGEYBiADKAsyHC5saWNlbnNlX3Byb3RvY29sLk1ldHJpY0RhdGESOwoUc2VydmljZV92ZXJzaW9uX2luZm8YByABKAsyHS5saWNlbnNlX3Byb3RvY29sLlZlcnNpb25JbmZvElkKEHNlc3Npb25fa2V5X3R5cGUYCCABKA4yLi5saWNlbnNlX3Byb3RvY29sLlNpZ25lZE1lc3NhZ2UuU2Vzc2lvbktleVR5cGU6D1dSQVBQRURfQUVTX0tFWRIeChZvZW1jcnlwdG9fY29yZV9tZXNzYWdlGAkgASgMIuwBCgtNZXNzYWdlVHlwZRITCg9MSUNFTlNFX1JFUVVFU1QQARILCgdMSUNFTlNFEAISEgoORVJST1JfUkVTUE9OU0UQAxIfChtTRVJWSUNFX0NFUlRJRklDQVRFX1JFUVVFU1QQBBIXChNTRVJWSUNFX0NFUlRJRklDQVRFEAUSDwoLU1VCX0xJQ0VOU0UQBhIXChNDQVNfTElDRU5TRV9SRVFVRVNUEAcSDwoLQ0FTX0xJQ0VOU0UQCBIcChhFWFRFUk5BTF9MSUNFTlNFX1JFUVVFU1QQCRIUChBFWFRFUk5BTF9MSUNFTlNFEAoiUwoOU2Vzc2lvbktleVR5cGUSDQoJVU5ERUZJTkVEEAASEwoPV1JBUFBFRF9BRVNfS0VZEAESHQoZRVBIRVJNRVJBTF9FQ0NfUFVCTElDX0tFWRACIu8NChRDbGllbnRJZGVudGlmaWNhdGlvbhJGCgR0eXBlGAEgASgOMjAubGljZW5zZV9wcm90b2NvbC5DbGllbnRJZGVudGlmaWNhdGlvbi5Ub2tlblR5cGU6BktFWUJPWBINCgV0b2tlbhgCIAEoDBJFCgtjbGllbnRfaW5mbxgDIAMoCzIwLmxpY2Vuc2VfcHJvdG9jb2wuQ2xpZW50SWRlbnRpZmljYXRpb24uTmFtZVZhbHVlEh0KFXByb3ZpZGVyX2NsaWVudF90b2tlbhgEIAEoDBIXCg9saWNlbnNlX2NvdW50ZXIYBSABKA0SVgoTY2xpZW50X2NhcGFiaWxpdGllcxgGIAEoCzI5LmxpY2Vuc2VfcHJvdG9jb2wuQ2xpZW50SWRlbnRpZmljYXRpb24uQ2xpZW50Q2FwYWJpbGl0aWVzEhAKCHZtcF9kYXRhGAcgASgMElQKEmRldmljZV9jcmVkZW50aWFscxgIIAMoCzI4LmxpY2Vuc2VfcHJvdG9jb2wuQ2xpZW50SWRlbnRpZmljYXRpb24uQ2xpZW50Q3JlZGVudGlhbHMaKAoJTmFtZVZhbHVlEgwKBG5hbWUYASABKAkSDQoFdmFsdWUYAiABKAkatQgKEkNsaWVudENhcGFiaWxpdGllcxIbCgxjbGllbnRfdG9rZW4YASABKAg6BWZhbHNlEhwKDXNlc3Npb25fdG9rZW4YAiABKAg6BWZhbHNlEisKHHZpZGVvX3Jlc29sdXRpb25fY29uc3RyYWludHMYAyABKAg6BWZhbHNlEmoKEG1heF9oZGNwX3ZlcnNpb24YBCABKA4yRS5saWNlbnNlX3Byb3RvY29sLkNsaWVudElkZW50aWZpY2F0aW9uLkNsaWVudENhcGFiaWxpdGllcy5IZGNwVmVyc2lvbjoJSERDUF9OT05FEh4KFm9lbV9jcnlwdG9fYXBpX3ZlcnNpb24YBSABKA0SKAoZYW50aV9yb2xsYmFja191c2FnZV90YWJsZRgGIAEoCDoFZmFsc2USEwoLc3JtX3ZlcnNpb24YByABKA0SHQoOY2FuX3VwZGF0ZV9zcm0YCCABKAg6BWZhbHNlEnQKHnN1cHBvcnRlZF9jZXJ0aWZpY2F0ZV9rZXlfdHlwZRgJIAMoDjJMLmxpY2Vuc2VfcHJvdG9jb2wuQ2xpZW50SWRlbnRpZmljYXRpb24uQ2xpZW50Q2FwYWJpbGl0aWVzLkNlcnRpZmljYXRlS2V5VHlwZRKNAQoaYW5hbG9nX291dHB1dF9jYXBhYmlsaXRpZXMYCiABKA4yUi5saWNlbnNlX3Byb3RvY29sLkNsaWVudElkZW50aWZpY2F0aW9uLkNsaWVudENhcGFiaWxpdGllcy5BbmFsb2dPdXRwdXRDYXBhYmlsaXRpZXM6FUFOQUxPR19PVVRQVVRfVU5LTk9XThIoChljYW5fZGlzYWJsZV9hbmFsb2dfb3V0cHV0GAsgASgIOgVmYWxzZRIfChRyZXNvdXJjZV9yYXRpbmdfdGllchgMIAEoDToBMCKAAQoLSGRjcFZlcnNpb24SDQoJSERDUF9OT05FEAASCwoHSERDUF9WMRABEgsKB0hEQ1BfVjIQAhINCglIRENQX1YyXzEQAxINCglIRENQX1YyXzIQBBINCglIRENQX1YyXzMQBRIbChZIRENQX05PX0RJR0lUQUxfT1VUUFVUEP8BImkKEkNlcnRpZmljYXRlS2V5VHlwZRIMCghSU0FfMjA0OBAAEgwKCFJTQV8zMDcyEAESEQoNRUNDX1NFQ1AyNTZSMRACEhEKDUVDQ19TRUNQMzg0UjEQAxIRCg1FQ0NfU0VDUDUyMVIxEAQijQEKGEFuYWxvZ091dHB1dENhcGFiaWxpdGllcxIZChVBTkFMT0dfT1VUUFVUX1VOS05PV04QABIWChJBTkFMT0dfT1VUUFVUX05PTkUQARIbChdBTkFMT0dfT1VUUFVUX1NVUFBPUlRFRBACEiEKHUFOQUxPR19PVVRQVVRfU1VQUE9SVFNfQ0dNU19BEAMaagoRQ2xpZW50Q3JlZGVudGlhbHMSRgoEdHlwZRgBIAEoDjIwLmxpY2Vuc2VfcHJvdG9jb2wuQ2xpZW50SWRlbnRpZmljYXRpb24uVG9rZW5UeXBlOgZLRVlCT1gSDQoFdG9rZW4YAiABKAwicwoJVG9rZW5UeXBlEgoKBktFWUJPWBAAEhoKFkRSTV9ERVZJQ0VfQ0VSVElGSUNBVEUQARIiCh5SRU1PVEVfQVRURVNUQVRJT05fQ0VSVElGSUNBVEUQAhIaChZPRU1fREVWSUNFX0NFUlRJRklDQVRFEAMiuwEKHUVuY3J5cHRlZENsaWVudElkZW50aWZpY2F0aW9uEhMKC3Byb3ZpZGVyX2lkGAEgASgJEikKIXNlcnZpY2VfY2VydGlmaWNhdGVfc2VyaWFsX251bWJlchgCIAEoDBIbChNlbmNyeXB0ZWRfY2xpZW50X2lkGAMgASgMEh4KFmVuY3J5cHRlZF9jbGllbnRfaWRfaXYYBCABKAwSHQoVZW5jcnlwdGVkX3ByaXZhY3lfa2V5GAUgASgMIoMHCg5Ecm1DZXJ0aWZpY2F0ZRIzCgR0eXBlGAEgASgOMiUubGljZW5zZV9wcm90b2NvbC5Ecm1DZXJ0aWZpY2F0ZS5UeXBlEhUKDXNlcmlhbF9udW1iZXIYAiABKAwSHQoVY3JlYXRpb25fdGltZV9zZWNvbmRzGAMgASgNEh8KF2V4cGlyYXRpb25fdGltZV9zZWNvbmRzGAwgASgNEhIKCnB1YmxpY19rZXkYBCABKAwSEQoJc3lzdGVtX2lkGAUgASgNEiIKFnRlc3RfZGV2aWNlX2RlcHJlY2F0ZWQYBiABKAhCAhgBEhMKC3Byb3ZpZGVyX2lkGAcgASgJEkMKDXNlcnZpY2VfdHlwZXMYCCADKA4yLC5saWNlbnNlX3Byb3RvY29sLkRybUNlcnRpZmljYXRlLlNlcnZpY2VUeXBlEkIKCWFsZ29yaXRobRgJIAEoDjIqLmxpY2Vuc2VfcHJvdG9jb2wuRHJtQ2VydGlmaWNhdGUuQWxnb3JpdGhtOgNSU0ESDgoGcm90X2lkGAogASgMEkYKDmVuY3J5cHRpb25fa2V5GAsgASgLMi4ubGljZW5zZV9wcm90b2NvbC5Ecm1DZXJ0aWZpY2F0ZS5FbmNyeXB0aW9uS2V5GmcKDUVuY3J5cHRpb25LZXkSEgoKcHVibGljX2tleRgBIAEoDBJCCglhbGdvcml0aG0YAiABKA4yKi5saWNlbnNlX3Byb3RvY29sLkRybUNlcnRpZmljYXRlLkFsZ29yaXRobToDUlNBIkwKBFR5cGUSCAoEUk9PVBAAEhAKDERFVklDRV9NT0RFTBABEgoKBkRFVklDRRACEgsKB1NFUlZJQ0UQAxIPCgtQUk9WSVNJT05FUhAEIoYBCgtTZXJ2aWNlVHlwZRIYChRVTktOT1dOX1NFUlZJQ0VfVFlQRRAAEhYKEkxJQ0VOU0VfU0VSVkVSX1NESxABEhwKGExJQ0VOU0VfU0VSVkVSX1BST1hZX1NESxACEhQKEFBST1ZJU0lPTklOR19TREsQAxIRCg1DQVNfUFJPWFlfU0RLEAQiZAoJQWxnb3JpdGhtEhUKEVVOS05PV05fQUxHT1JJVEhNEAASBwoDUlNBEAESEQoNRUNDX1NFQ1AyNTZSMRACEhEKDUVDQ19TRUNQMzg0UjEQAxIRCg1FQ0NfU0VDUDUyMVIxEAQiuAEKFFNpZ25lZERybUNlcnRpZmljYXRlEhcKD2RybV9jZXJ0aWZpY2F0ZRgBIAEoDBIRCglzaWduYXR1cmUYAiABKAwSNgoGc2lnbmVyGAMgASgLMiYubGljZW5zZV9wcm90b2NvbC5TaWduZWREcm1DZXJ0aWZpY2F0ZRI8Cg5oYXNoX2FsZ29yaXRobRgEIAEoDjIkLmxpY2Vuc2VfcHJvdG9jb2wuSGFzaEFsZ29yaXRobVByb3RvItUFChBXaWRldmluZVBzc2hEYXRhEg8KB2tleV9pZHMYAiADKAwSEgoKY29udGVudF9pZBgEIAEoDBIbChNjcnlwdG9fcGVyaW9kX2luZGV4GAcgASgNEhkKEXByb3RlY3Rpb25fc2NoZW1lGAkgASgNEh0KFWNyeXB0b19wZXJpb2Rfc2Vjb25kcxgKIAEoDRI9CgR0eXBlGAsgASgOMicubGljZW5zZV9wcm90b2NvbC5XaWRldmluZVBzc2hEYXRhLlR5cGU6BlNJTkdMRRIUCgxrZXlfc2VxdWVuY2UYDCABKA0SEQoJZ3JvdXBfaWRzGA0gAygMEkUKDWVudGl0bGVkX2tleXMYDiADKAsyLi5saWNlbnNlX3Byb3RvY29sLldpZGV2aW5lUHNzaERhdGEuRW50aXRsZWRLZXkSFQoNdmlkZW9fZmVhdHVyZRgPIAEoCRJDCglhbGdvcml0aG0YASABKA4yLC5saWNlbnNlX3Byb3RvY29sLldpZGV2aW5lUHNzaERhdGEuQWxnb3JpdGhtQgIYARIUCghwcm92aWRlchgDIAEoCUICGAESFgoKdHJhY2tfdHlwZRgFIAEoCUICGAESEgoGcG9saWN5GAYgASgJQgIYARIbCg9ncm91cGVkX2xpY2Vuc2UYCCABKAxCAhgBGnoKC0VudGl0bGVkS2V5EhoKEmVudGl0bGVtZW50X2tleV9pZBgBIAEoDBIOCgZrZXlfaWQYAiABKAwSCwoDa2V5GAMgASgMEgoKAml2GAQgASgMEiYKGmVudGl0bGVtZW50X2tleV9zaXplX2J5dGVzGAUgASgNOgIzMiI1CgRUeXBlEgoKBlNJTkdMRRAAEg8KC0VOVElUTEVNRU5UEAESEAoMRU5USVRMRURfS0VZEAIiKAoJQWxnb3JpdGhtEg8KC1VORU5DUllQVEVEEAASCgoGQUVTQ1RSEAEixgEKCkZpbGVIYXNoZXMSDgoGc2lnbmVyGAEgASgMEjoKCnNpZ25hdHVyZXMYAiADKAsyJi5saWNlbnNlX3Byb3RvY29sLkZpbGVIYXNoZXMuU2lnbmF0dXJlGmwKCVNpZ25hdHVyZRIQCghmaWxlbmFtZRgBIAEoCRIUCgx0ZXN0X3NpZ25pbmcYAiABKAgSEgoKU0hBNTEySGFzaBgDIAEoDBIQCghtYWluX2V4ZRgEIAEoCBIRCglzaWduYXR1cmUYBSABKAwqOAoLTGljZW5zZVR5cGUSDQoJU1RSRUFNSU5HEAESCwoHT0ZGTElORRACEg0KCUFVVE9NQVRJQxADKtkBChpQbGF0Zm9ybVZlcmlmaWNhdGlvblN0YXR1cxIXChNQTEFURk9STV9VTlZFUklGSUVEEAASFQoRUExBVEZPUk1fVEFNUEVSRUQQARIeChpQTEFURk9STV9TT0ZUV0FSRV9WRVJJRklFRBACEh4KGlBMQVRGT1JNX0hBUkRXQVJFX1ZFUklGSUVEEAMSHAoYUExBVEZPUk1fTk9fVkVSSUZJQ0FUSU9OEAQSLQopUExBVEZPUk1fU0VDVVJFX1NUT1JBR0VfU09GVFdBUkVfVkVSSUZJRUQQBSpECg9Qcm90b2NvbFZlcnNpb24SDwoLVkVSU0lPTl8yXzAQFBIPCgtWRVJTSU9OXzJfMRAVEg8KC1ZFUlNJT05fMl8yEBYqhgEKEkhhc2hBbGdvcml0aG1Qcm90bxIeChpIQVNIX0FMR09SSVRITV9VTlNQRUNJRklFRBAAEhgKFEhBU0hfQUxHT1JJVEhNX1NIQV8xEAESGgoWSEFTSF9BTEdPUklUSE1fU0hBXzI1NhACEhoKFkhBU0hfQUxHT1JJVEhNX1NIQV8zODQQAw");
+export const LicenseIdentificationSchema = messageDesc(file_license_protocol, 0);
+export const LicenseSchema = messageDesc(file_license_protocol, 1);
+export const License_PolicySchema = messageDesc(file_license_protocol, 1, 0);
+export const License_KeyContainerSchema = messageDesc(file_license_protocol, 1, 1);
+export const License_KeyContainer_KeyControlSchema = messageDesc(file_license_protocol, 1, 1, 0);
+export const License_KeyContainer_OutputProtectionSchema = messageDesc(file_license_protocol, 1, 1, 1);
+export var License_KeyContainer_OutputProtection_HDCP;
+(function (License_KeyContainer_OutputProtection_HDCP) {
+    License_KeyContainer_OutputProtection_HDCP[License_KeyContainer_OutputProtection_HDCP["HDCP_NONE"] = 0] = "HDCP_NONE";
+    License_KeyContainer_OutputProtection_HDCP[License_KeyContainer_OutputProtection_HDCP["HDCP_V1"] = 1] = "HDCP_V1";
+    License_KeyContainer_OutputProtection_HDCP[License_KeyContainer_OutputProtection_HDCP["HDCP_V2"] = 2] = "HDCP_V2";
+    License_KeyContainer_OutputProtection_HDCP[License_KeyContainer_OutputProtection_HDCP["HDCP_V2_1"] = 3] = "HDCP_V2_1";
+    License_KeyContainer_OutputProtection_HDCP[License_KeyContainer_OutputProtection_HDCP["HDCP_V2_2"] = 4] = "HDCP_V2_2";
+    License_KeyContainer_OutputProtection_HDCP[License_KeyContainer_OutputProtection_HDCP["HDCP_V2_3"] = 5] = "HDCP_V2_3";
+    License_KeyContainer_OutputProtection_HDCP[License_KeyContainer_OutputProtection_HDCP["HDCP_NO_DIGITAL_OUTPUT"] = 255] = "HDCP_NO_DIGITAL_OUTPUT";
+})(License_KeyContainer_OutputProtection_HDCP || (License_KeyContainer_OutputProtection_HDCP = {}));
+export const License_KeyContainer_OutputProtection_HDCPSchema = enumDesc(file_license_protocol, 1, 1, 1, 0);
+export var License_KeyContainer_OutputProtection_CGMS;
+(function (License_KeyContainer_OutputProtection_CGMS) {
+    License_KeyContainer_OutputProtection_CGMS[License_KeyContainer_OutputProtection_CGMS["CGMS_NONE"] = 42] = "CGMS_NONE";
+    License_KeyContainer_OutputProtection_CGMS[License_KeyContainer_OutputProtection_CGMS["COPY_FREE"] = 0] = "COPY_FREE";
+    License_KeyContainer_OutputProtection_CGMS[License_KeyContainer_OutputProtection_CGMS["COPY_ONCE"] = 2] = "COPY_ONCE";
+    License_KeyContainer_OutputProtection_CGMS[License_KeyContainer_OutputProtection_CGMS["COPY_NEVER"] = 3] = "COPY_NEVER";
+})(License_KeyContainer_OutputProtection_CGMS || (License_KeyContainer_OutputProtection_CGMS = {}));
+export const License_KeyContainer_OutputProtection_CGMSSchema = enumDesc(file_license_protocol, 1, 1, 1, 1);
+export var License_KeyContainer_OutputProtection_HdcpSrmRule;
+(function (License_KeyContainer_OutputProtection_HdcpSrmRule) {
+    License_KeyContainer_OutputProtection_HdcpSrmRule[License_KeyContainer_OutputProtection_HdcpSrmRule["HDCP_SRM_RULE_NONE"] = 0] = "HDCP_SRM_RULE_NONE";
+    License_KeyContainer_OutputProtection_HdcpSrmRule[License_KeyContainer_OutputProtection_HdcpSrmRule["CURRENT_SRM"] = 1] = "CURRENT_SRM";
+})(License_KeyContainer_OutputProtection_HdcpSrmRule || (License_KeyContainer_OutputProtection_HdcpSrmRule = {}));
+export const License_KeyContainer_OutputProtection_HdcpSrmRuleSchema = enumDesc(file_license_protocol, 1, 1, 1, 2);
+export const License_KeyContainer_VideoResolutionConstraintSchema = messageDesc(file_license_protocol, 1, 1, 2);
+export const License_KeyContainer_OperatorSessionKeyPermissionsSchema = messageDesc(file_license_protocol, 1, 1, 3);
+export var License_KeyContainer_KeyType;
+(function (License_KeyContainer_KeyType) {
+    License_KeyContainer_KeyType[License_KeyContainer_KeyType["SIGNING"] = 1] = "SIGNING";
+    License_KeyContainer_KeyType[License_KeyContainer_KeyType["CONTENT"] = 2] = "CONTENT";
+    License_KeyContainer_KeyType[License_KeyContainer_KeyType["KEY_CONTROL"] = 3] = "KEY_CONTROL";
+    License_KeyContainer_KeyType[License_KeyContainer_KeyType["OPERATOR_SESSION"] = 4] = "OPERATOR_SESSION";
+    License_KeyContainer_KeyType[License_KeyContainer_KeyType["ENTITLEMENT"] = 5] = "ENTITLEMENT";
+    License_KeyContainer_KeyType[License_KeyContainer_KeyType["OEM_CONTENT"] = 6] = "OEM_CONTENT";
+})(License_KeyContainer_KeyType || (License_KeyContainer_KeyType = {}));
+export const License_KeyContainer_KeyTypeSchema = enumDesc(file_license_protocol, 1, 1, 0);
+export var License_KeyContainer_SecurityLevel;
+(function (License_KeyContainer_SecurityLevel) {
+    License_KeyContainer_SecurityLevel[License_KeyContainer_SecurityLevel["SW_SECURE_CRYPTO"] = 1] = "SW_SECURE_CRYPTO";
+    License_KeyContainer_SecurityLevel[License_KeyContainer_SecurityLevel["SW_SECURE_DECODE"] = 2] = "SW_SECURE_DECODE";
+    License_KeyContainer_SecurityLevel[License_KeyContainer_SecurityLevel["HW_SECURE_CRYPTO"] = 3] = "HW_SECURE_CRYPTO";
+    License_KeyContainer_SecurityLevel[License_KeyContainer_SecurityLevel["HW_SECURE_DECODE"] = 4] = "HW_SECURE_DECODE";
+    License_KeyContainer_SecurityLevel[License_KeyContainer_SecurityLevel["HW_SECURE_ALL"] = 5] = "HW_SECURE_ALL";
+})(License_KeyContainer_SecurityLevel || (License_KeyContainer_SecurityLevel = {}));
+export const License_KeyContainer_SecurityLevelSchema = enumDesc(file_license_protocol, 1, 1, 1);
+export const LicenseRequestSchema = messageDesc(file_license_protocol, 2);
+export const LicenseRequest_ContentIdentificationSchema = messageDesc(file_license_protocol, 2, 0);
+export const LicenseRequest_ContentIdentification_WidevinePsshDataSchema = messageDesc(file_license_protocol, 2, 0, 0);
+export const LicenseRequest_ContentIdentification_WebmKeyIdSchema = messageDesc(file_license_protocol, 2, 0, 1);
+export const LicenseRequest_ContentIdentification_ExistingLicenseSchema = messageDesc(file_license_protocol, 2, 0, 2);
+export const LicenseRequest_ContentIdentification_InitDataSchema = messageDesc(file_license_protocol, 2, 0, 3);
+export var LicenseRequest_ContentIdentification_InitData_InitDataType;
+(function (LicenseRequest_ContentIdentification_InitData_InitDataType) {
+    LicenseRequest_ContentIdentification_InitData_InitDataType[LicenseRequest_ContentIdentification_InitData_InitDataType["CENC"] = 1] = "CENC";
+    LicenseRequest_ContentIdentification_InitData_InitDataType[LicenseRequest_ContentIdentification_InitData_InitDataType["WEBM"] = 2] = "WEBM";
+})(LicenseRequest_ContentIdentification_InitData_InitDataType || (LicenseRequest_ContentIdentification_InitData_InitDataType = {}));
+export const LicenseRequest_ContentIdentification_InitData_InitDataTypeSchema = enumDesc(file_license_protocol, 2, 0, 3, 0);
+export var LicenseRequest_RequestType;
+(function (LicenseRequest_RequestType) {
+    LicenseRequest_RequestType[LicenseRequest_RequestType["NEW"] = 1] = "NEW";
+    LicenseRequest_RequestType[LicenseRequest_RequestType["RENEWAL"] = 2] = "RENEWAL";
+    LicenseRequest_RequestType[LicenseRequest_RequestType["RELEASE"] = 3] = "RELEASE";
+})(LicenseRequest_RequestType || (LicenseRequest_RequestType = {}));
+export const LicenseRequest_RequestTypeSchema = enumDesc(file_license_protocol, 2, 0);
+export const MetricDataSchema = messageDesc(file_license_protocol, 3);
+export const MetricData_TypeValueSchema = messageDesc(file_license_protocol, 3, 0);
+export var MetricData_MetricType;
+(function (MetricData_MetricType) {
+    MetricData_MetricType[MetricData_MetricType["LATENCY"] = 1] = "LATENCY";
+    MetricData_MetricType[MetricData_MetricType["TIMESTAMP"] = 2] = "TIMESTAMP";
+})(MetricData_MetricType || (MetricData_MetricType = {}));
+export const MetricData_MetricTypeSchema = enumDesc(file_license_protocol, 3, 0);
+export const VersionInfoSchema = messageDesc(file_license_protocol, 4);
+export const SignedMessageSchema = messageDesc(file_license_protocol, 5);
+export var SignedMessage_MessageType;
+(function (SignedMessage_MessageType) {
+    SignedMessage_MessageType[SignedMessage_MessageType["LICENSE_REQUEST"] = 1] = "LICENSE_REQUEST";
+    SignedMessage_MessageType[SignedMessage_MessageType["LICENSE"] = 2] = "LICENSE";
+    SignedMessage_MessageType[SignedMessage_MessageType["ERROR_RESPONSE"] = 3] = "ERROR_RESPONSE";
+    SignedMessage_MessageType[SignedMessage_MessageType["SERVICE_CERTIFICATE_REQUEST"] = 4] = "SERVICE_CERTIFICATE_REQUEST";
+    SignedMessage_MessageType[SignedMessage_MessageType["SERVICE_CERTIFICATE"] = 5] = "SERVICE_CERTIFICATE";
+    SignedMessage_MessageType[SignedMessage_MessageType["SUB_LICENSE"] = 6] = "SUB_LICENSE";
+    SignedMessage_MessageType[SignedMessage_MessageType["CAS_LICENSE_REQUEST"] = 7] = "CAS_LICENSE_REQUEST";
+    SignedMessage_MessageType[SignedMessage_MessageType["CAS_LICENSE"] = 8] = "CAS_LICENSE";
+    SignedMessage_MessageType[SignedMessage_MessageType["EXTERNAL_LICENSE_REQUEST"] = 9] = "EXTERNAL_LICENSE_REQUEST";
+    SignedMessage_MessageType[SignedMessage_MessageType["EXTERNAL_LICENSE"] = 10] = "EXTERNAL_LICENSE";
+})(SignedMessage_MessageType || (SignedMessage_MessageType = {}));
+export const SignedMessage_MessageTypeSchema = enumDesc(file_license_protocol, 5, 0);
+export var SignedMessage_SessionKeyType;
+(function (SignedMessage_SessionKeyType) {
+    SignedMessage_SessionKeyType[SignedMessage_SessionKeyType["UNDEFINED"] = 0] = "UNDEFINED";
+    SignedMessage_SessionKeyType[SignedMessage_SessionKeyType["WRAPPED_AES_KEY"] = 1] = "WRAPPED_AES_KEY";
+    SignedMessage_SessionKeyType[SignedMessage_SessionKeyType["EPHERMERAL_ECC_PUBLIC_KEY"] = 2] = "EPHERMERAL_ECC_PUBLIC_KEY";
+})(SignedMessage_SessionKeyType || (SignedMessage_SessionKeyType = {}));
+export const SignedMessage_SessionKeyTypeSchema = enumDesc(file_license_protocol, 5, 1);
+export const ClientIdentificationSchema = messageDesc(file_license_protocol, 6);
+export const ClientIdentification_NameValueSchema = messageDesc(file_license_protocol, 6, 0);
+export const ClientIdentification_ClientCapabilitiesSchema = messageDesc(file_license_protocol, 6, 1);
+export var ClientIdentification_ClientCapabilities_HdcpVersion;
+(function (ClientIdentification_ClientCapabilities_HdcpVersion) {
+    ClientIdentification_ClientCapabilities_HdcpVersion[ClientIdentification_ClientCapabilities_HdcpVersion["HDCP_NONE"] = 0] = "HDCP_NONE";
+    ClientIdentification_ClientCapabilities_HdcpVersion[ClientIdentification_ClientCapabilities_HdcpVersion["HDCP_V1"] = 1] = "HDCP_V1";
+    ClientIdentification_ClientCapabilities_HdcpVersion[ClientIdentification_ClientCapabilities_HdcpVersion["HDCP_V2"] = 2] = "HDCP_V2";
+    ClientIdentification_ClientCapabilities_HdcpVersion[ClientIdentification_ClientCapabilities_HdcpVersion["HDCP_V2_1"] = 3] = "HDCP_V2_1";
+    ClientIdentification_ClientCapabilities_HdcpVersion[ClientIdentification_ClientCapabilities_HdcpVersion["HDCP_V2_2"] = 4] = "HDCP_V2_2";
+    ClientIdentification_ClientCapabilities_HdcpVersion[ClientIdentification_ClientCapabilities_HdcpVersion["HDCP_V2_3"] = 5] = "HDCP_V2_3";
+    ClientIdentification_ClientCapabilities_HdcpVersion[ClientIdentification_ClientCapabilities_HdcpVersion["HDCP_NO_DIGITAL_OUTPUT"] = 255] = "HDCP_NO_DIGITAL_OUTPUT";
+})(ClientIdentification_ClientCapabilities_HdcpVersion || (ClientIdentification_ClientCapabilities_HdcpVersion = {}));
+export const ClientIdentification_ClientCapabilities_HdcpVersionSchema = enumDesc(file_license_protocol, 6, 1, 0);
+export var ClientIdentification_ClientCapabilities_CertificateKeyType;
+(function (ClientIdentification_ClientCapabilities_CertificateKeyType) {
+    ClientIdentification_ClientCapabilities_CertificateKeyType[ClientIdentification_ClientCapabilities_CertificateKeyType["RSA_2048"] = 0] = "RSA_2048";
+    ClientIdentification_ClientCapabilities_CertificateKeyType[ClientIdentification_ClientCapabilities_CertificateKeyType["RSA_3072"] = 1] = "RSA_3072";
+    ClientIdentification_ClientCapabilities_CertificateKeyType[ClientIdentification_ClientCapabilities_CertificateKeyType["ECC_SECP256R1"] = 2] = "ECC_SECP256R1";
+    ClientIdentification_ClientCapabilities_CertificateKeyType[ClientIdentification_ClientCapabilities_CertificateKeyType["ECC_SECP384R1"] = 3] = "ECC_SECP384R1";
+    ClientIdentification_ClientCapabilities_CertificateKeyType[ClientIdentification_ClientCapabilities_CertificateKeyType["ECC_SECP521R1"] = 4] = "ECC_SECP521R1";
+})(ClientIdentification_ClientCapabilities_CertificateKeyType || (ClientIdentification_ClientCapabilities_CertificateKeyType = {}));
+export const ClientIdentification_ClientCapabilities_CertificateKeyTypeSchema = enumDesc(file_license_protocol, 6, 1, 1);
+export var ClientIdentification_ClientCapabilities_AnalogOutputCapabilities;
+(function (ClientIdentification_ClientCapabilities_AnalogOutputCapabilities) {
+    ClientIdentification_ClientCapabilities_AnalogOutputCapabilities[ClientIdentification_ClientCapabilities_AnalogOutputCapabilities["ANALOG_OUTPUT_UNKNOWN"] = 0] = "ANALOG_OUTPUT_UNKNOWN";
+    ClientIdentification_ClientCapabilities_AnalogOutputCapabilities[ClientIdentification_ClientCapabilities_AnalogOutputCapabilities["ANALOG_OUTPUT_NONE"] = 1] = "ANALOG_OUTPUT_NONE";
+    ClientIdentification_ClientCapabilities_AnalogOutputCapabilities[ClientIdentification_ClientCapabilities_AnalogOutputCapabilities["ANALOG_OUTPUT_SUPPORTED"] = 2] = "ANALOG_OUTPUT_SUPPORTED";
+    ClientIdentification_ClientCapabilities_AnalogOutputCapabilities[ClientIdentification_ClientCapabilities_AnalogOutputCapabilities["ANALOG_OUTPUT_SUPPORTS_CGMS_A"] = 3] = "ANALOG_OUTPUT_SUPPORTS_CGMS_A";
+})(ClientIdentification_ClientCapabilities_AnalogOutputCapabilities || (ClientIdentification_ClientCapabilities_AnalogOutputCapabilities = {}));
+export const ClientIdentification_ClientCapabilities_AnalogOutputCapabilitiesSchema = enumDesc(file_license_protocol, 6, 1, 2);
+export const ClientIdentification_ClientCredentialsSchema = messageDesc(file_license_protocol, 6, 2);
+export var ClientIdentification_TokenType;
+(function (ClientIdentification_TokenType) {
+    ClientIdentification_TokenType[ClientIdentification_TokenType["KEYBOX"] = 0] = "KEYBOX";
+    ClientIdentification_TokenType[ClientIdentification_TokenType["DRM_DEVICE_CERTIFICATE"] = 1] = "DRM_DEVICE_CERTIFICATE";
+    ClientIdentification_TokenType[ClientIdentification_TokenType["REMOTE_ATTESTATION_CERTIFICATE"] = 2] = "REMOTE_ATTESTATION_CERTIFICATE";
+    ClientIdentification_TokenType[ClientIdentification_TokenType["OEM_DEVICE_CERTIFICATE"] = 3] = "OEM_DEVICE_CERTIFICATE";
+})(ClientIdentification_TokenType || (ClientIdentification_TokenType = {}));
+export const ClientIdentification_TokenTypeSchema = enumDesc(file_license_protocol, 6, 0);
+export const EncryptedClientIdentificationSchema = messageDesc(file_license_protocol, 7);
+export const DrmCertificateSchema = messageDesc(file_license_protocol, 8);
+export const DrmCertificate_EncryptionKeySchema = messageDesc(file_license_protocol, 8, 0);
+export var DrmCertificate_Type;
+(function (DrmCertificate_Type) {
+    DrmCertificate_Type[DrmCertificate_Type["ROOT"] = 0] = "ROOT";
+    DrmCertificate_Type[DrmCertificate_Type["DEVICE_MODEL"] = 1] = "DEVICE_MODEL";
+    DrmCertificate_Type[DrmCertificate_Type["DEVICE"] = 2] = "DEVICE";
+    DrmCertificate_Type[DrmCertificate_Type["SERVICE"] = 3] = "SERVICE";
+    DrmCertificate_Type[DrmCertificate_Type["PROVISIONER"] = 4] = "PROVISIONER";
+})(DrmCertificate_Type || (DrmCertificate_Type = {}));
+export const DrmCertificate_TypeSchema = enumDesc(file_license_protocol, 8, 0);
+export var DrmCertificate_ServiceType;
+(function (DrmCertificate_ServiceType) {
+    DrmCertificate_ServiceType[DrmCertificate_ServiceType["UNKNOWN_SERVICE_TYPE"] = 0] = "UNKNOWN_SERVICE_TYPE";
+    DrmCertificate_ServiceType[DrmCertificate_ServiceType["LICENSE_SERVER_SDK"] = 1] = "LICENSE_SERVER_SDK";
+    DrmCertificate_ServiceType[DrmCertificate_ServiceType["LICENSE_SERVER_PROXY_SDK"] = 2] = "LICENSE_SERVER_PROXY_SDK";
+    DrmCertificate_ServiceType[DrmCertificate_ServiceType["PROVISIONING_SDK"] = 3] = "PROVISIONING_SDK";
+    DrmCertificate_ServiceType[DrmCertificate_ServiceType["CAS_PROXY_SDK"] = 4] = "CAS_PROXY_SDK";
+})(DrmCertificate_ServiceType || (DrmCertificate_ServiceType = {}));
+export const DrmCertificate_ServiceTypeSchema = enumDesc(file_license_protocol, 8, 1);
+export var DrmCertificate_Algorithm;
+(function (DrmCertificate_Algorithm) {
+    DrmCertificate_Algorithm[DrmCertificate_Algorithm["UNKNOWN_ALGORITHM"] = 0] = "UNKNOWN_ALGORITHM";
+    DrmCertificate_Algorithm[DrmCertificate_Algorithm["RSA"] = 1] = "RSA";
+    DrmCertificate_Algorithm[DrmCertificate_Algorithm["ECC_SECP256R1"] = 2] = "ECC_SECP256R1";
+    DrmCertificate_Algorithm[DrmCertificate_Algorithm["ECC_SECP384R1"] = 3] = "ECC_SECP384R1";
+    DrmCertificate_Algorithm[DrmCertificate_Algorithm["ECC_SECP521R1"] = 4] = "ECC_SECP521R1";
+})(DrmCertificate_Algorithm || (DrmCertificate_Algorithm = {}));
+export const DrmCertificate_AlgorithmSchema = enumDesc(file_license_protocol, 8, 2);
+export const SignedDrmCertificateSchema = messageDesc(file_license_protocol, 9);
+export const WidevinePsshDataSchema = messageDesc(file_license_protocol, 10);
+export const WidevinePsshData_EntitledKeySchema = messageDesc(file_license_protocol, 10, 0);
+export var WidevinePsshData_Type;
+(function (WidevinePsshData_Type) {
+    WidevinePsshData_Type[WidevinePsshData_Type["SINGLE"] = 0] = "SINGLE";
+    WidevinePsshData_Type[WidevinePsshData_Type["ENTITLEMENT"] = 1] = "ENTITLEMENT";
+    WidevinePsshData_Type[WidevinePsshData_Type["ENTITLED_KEY"] = 2] = "ENTITLED_KEY";
+})(WidevinePsshData_Type || (WidevinePsshData_Type = {}));
+export const WidevinePsshData_TypeSchema = enumDesc(file_license_protocol, 10, 0);
+export var WidevinePsshData_Algorithm;
+(function (WidevinePsshData_Algorithm) {
+    WidevinePsshData_Algorithm[WidevinePsshData_Algorithm["UNENCRYPTED"] = 0] = "UNENCRYPTED";
+    WidevinePsshData_Algorithm[WidevinePsshData_Algorithm["AESCTR"] = 1] = "AESCTR";
+})(WidevinePsshData_Algorithm || (WidevinePsshData_Algorithm = {}));
+export const WidevinePsshData_AlgorithmSchema = enumDesc(file_license_protocol, 10, 1);
+export const FileHashesSchema = messageDesc(file_license_protocol, 11);
+export const FileHashes_SignatureSchema = messageDesc(file_license_protocol, 11, 0);
+export var LicenseType;
+(function (LicenseType) {
+    LicenseType[LicenseType["STREAMING"] = 1] = "STREAMING";
+    LicenseType[LicenseType["OFFLINE"] = 2] = "OFFLINE";
+    LicenseType[LicenseType["AUTOMATIC"] = 3] = "AUTOMATIC";
+})(LicenseType || (LicenseType = {}));
+export const LicenseTypeSchema = enumDesc(file_license_protocol, 0);
+export var PlatformVerificationStatus;
+(function (PlatformVerificationStatus) {
+    PlatformVerificationStatus[PlatformVerificationStatus["PLATFORM_UNVERIFIED"] = 0] = "PLATFORM_UNVERIFIED";
+    PlatformVerificationStatus[PlatformVerificationStatus["PLATFORM_TAMPERED"] = 1] = "PLATFORM_TAMPERED";
+    PlatformVerificationStatus[PlatformVerificationStatus["PLATFORM_SOFTWARE_VERIFIED"] = 2] = "PLATFORM_SOFTWARE_VERIFIED";
+    PlatformVerificationStatus[PlatformVerificationStatus["PLATFORM_HARDWARE_VERIFIED"] = 3] = "PLATFORM_HARDWARE_VERIFIED";
+    PlatformVerificationStatus[PlatformVerificationStatus["PLATFORM_NO_VERIFICATION"] = 4] = "PLATFORM_NO_VERIFICATION";
+    PlatformVerificationStatus[PlatformVerificationStatus["PLATFORM_SECURE_STORAGE_SOFTWARE_VERIFIED"] = 5] = "PLATFORM_SECURE_STORAGE_SOFTWARE_VERIFIED";
+})(PlatformVerificationStatus || (PlatformVerificationStatus = {}));
+export const PlatformVerificationStatusSchema = enumDesc(file_license_protocol, 1);
+export var ProtocolVersion;
+(function (ProtocolVersion) {
+    ProtocolVersion[ProtocolVersion["VERSION_2_0"] = 20] = "VERSION_2_0";
+    ProtocolVersion[ProtocolVersion["VERSION_2_1"] = 21] = "VERSION_2_1";
+    ProtocolVersion[ProtocolVersion["VERSION_2_2"] = 22] = "VERSION_2_2";
+})(ProtocolVersion || (ProtocolVersion = {}));
+export const ProtocolVersionSchema = enumDesc(file_license_protocol, 2);
+export var HashAlgorithmProto;
+(function (HashAlgorithmProto) {
+    HashAlgorithmProto[HashAlgorithmProto["HASH_ALGORITHM_UNSPECIFIED"] = 0] = "HASH_ALGORITHM_UNSPECIFIED";
+    HashAlgorithmProto[HashAlgorithmProto["HASH_ALGORITHM_SHA_1"] = 1] = "HASH_ALGORITHM_SHA_1";
+    HashAlgorithmProto[HashAlgorithmProto["HASH_ALGORITHM_SHA_256"] = 2] = "HASH_ALGORITHM_SHA_256";
+    HashAlgorithmProto[HashAlgorithmProto["HASH_ALGORITHM_SHA_384"] = 3] = "HASH_ALGORITHM_SHA_384";
+})(HashAlgorithmProto || (HashAlgorithmProto = {}));
+export const HashAlgorithmProtoSchema = enumDesc(file_license_protocol, 3);
+//# sourceMappingURL=license_protocol_pb.js.map
